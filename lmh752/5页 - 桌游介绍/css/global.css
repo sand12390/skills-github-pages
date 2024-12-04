@@ -1,0 +1,91 @@
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 10%;
+  height: 100px;
+  
+}
+a {
+  color: #fff;
+  text-decoration: none;
+}
+header .logo img {
+  width: 80px;
+  height: 80px;
+  object-fit: contain;
+}
+header .search input {
+  height: 30px;
+  width: 300px;
+  border-radius: 15px;
+  padding: 0 30px;
+}
+.nav {
+  height: 40px;
+  display: flex;
+  line-height: 40px;
+  color: #fff;
+  font-size: 14px;
+  background-color: rgb(12, 31, 90);
+}
+.nav .nav-item {
+  cursor: pointer;
+  height: 40px;
+  text-align: center;
+  width: 14.3%;
+  transition: all 0.4s;
+}
+.nav .nav-item:hover {
+  background-color: royalblue;
+  transition: all 0.4s;
+}
+footer {
+  color: #fff;
+  background-color: rgb(12, 31, 90);
+  height: 100px;
+  line-height: 100px;
+  text-align: center;
+  font-size: 12px;
+}
+/* 杭州简介 */
+.info {
+  padding: 30px;
+  line-height: 40px;
+  box-sizing: border-box;
+  width: 95%;
+  margin: 0 auto;
+  margin-top: 20px;
+  border: 1px solid rgb(12, 31, 90);
+  border-left: 5px solid royalblue;
+}
+.info .info-title {
+  font-weight: bold;
+  width: 30%;
+  height: 40px;
+  border-bottom: 3px solid royalblue;
+  font-size: 20px;
+}
+
+/* 图片展示 */
+.img {
+  width: 95%;
+  margin: 0 auto;
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+.img img {
+  width: 24%;
+  height: 400px;
+  object-fit: cover;
+}
+
+.crumbs {
+  margin: 20px 0;
+  font-size: 12px;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
